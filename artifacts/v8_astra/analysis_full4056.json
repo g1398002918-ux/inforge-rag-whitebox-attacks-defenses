@@ -1,0 +1,11 @@
+{
+  "mode": "astra_action_trace_whitebox_discrete",
+  "profile": "max-asr",
+  "sample_count": 4056,
+  "nq": {"total": 1343, "clean_correct_eligible": 1343, "successful_attacks": 451, "asr": 0.33581533879374537, "valid_target_outputs": 1343, "mean_retrieval_calls": 82.45941921072226, "mean_target_calls": 10.476545048399107, "mean_best_edit_ratio": 0.10660545711841718},
+  "hotpotqa": {"total": 2713, "clean_correct_eligible": 2713, "successful_attacks": 1138, "asr": 0.41946185035016587, "valid_target_outputs": 2711, "status_counts": {"ok": 2711, "max_turns": 2}, "mean_retrieval_calls": 91.69369701437523, "mean_target_calls": 10.235164025064504, "mean_best_edit_ratio": 0.0521821237088072},
+  "overall": {"total": 4056, "successful_attacks": 1589, "asr": 0.39176528697731755, "wilson_95_ci": [0.3769, 0.4069]},
+  "immutability": {"weights_mutated": false, "corpus_mutated": false, "index_mutated": false, "gold_answer_injection_forbidden": true},
+  "budget": {"beam_size": 24, "rounds": 3, "retrieval_budget": 144, "target_budget": 12, "target_batch": 6}
+}
+

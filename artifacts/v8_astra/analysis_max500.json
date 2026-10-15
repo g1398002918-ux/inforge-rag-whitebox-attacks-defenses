@@ -1,0 +1,420 @@
+{
+  "generated_at": "2026-10-10T12:06:44.572Z",
+  "sample": {
+    "total": 500,
+    "nq": 166,
+    "hotpotqa": 334,
+    "seed": 20261002,
+    "criterion": "clean-correct; strict attacked EM/F1 both zero"
+  },
+  "astra": {
+    "n": 500,
+    "success": 189,
+    "asr": 0.378,
+    "ci95": [
+      0.3365800548306851,
+      0.42128035209085535
+    ],
+    "mean_retrieval": 90.068,
+    "mean_target": 10.344,
+    "mean_edit": 0.07080142323030213,
+    "median_edit": 0.05882352941176472,
+    "median_similarity": 0.986019104719162,
+    "mean_similarity": 0.9825189975500107,
+    "median_snr_db": 14.28410660378298,
+    "mean_snr_db": 18.381548417197912,
+    "median_drift": 0.30510023089251237,
+    "mean_drift": 0.33190916186946695,
+    "operators": [
+      [
+        "salient_anchor_echo",
+        96
+      ],
+      [
+        "gradient_boundary_third",
+        27
+      ],
+      [
+        "quoted_question",
+        26
+      ],
+      [
+        "gradient_boundary_two_thirds",
+        25
+      ],
+      [
+        "anchor_echo",
+        24
+      ],
+      [
+        "gradient_boundary_middle",
+        15
+      ],
+      [
+        "single_boundary",
+        14
+      ],
+      [
+        "wh_micro",
+        9
+      ],
+      [
+        "factual_marker",
+        3
+      ],
+      [
+        "question_carrier",
+        1
+      ]
+    ]
+  },
+  "b3": {
+    "n": 500,
+    "success": 123,
+    "asr": 0.246,
+    "ci95": [
+      0.2102803738317757,
+      0.2855929323819232
+    ],
+    "mean_retrieval": 39.368,
+    "mean_target": 7.356,
+    "mean_edit": 0.05098717540778048,
+    "median_edit": 0.034095311894614455,
+    "median_similarity": 0.9899452328681946,
+    "mean_similarity": 0.9856089234352112,
+    "median_snr_db": 14.388322441109608,
+    "mean_snr_db": 19.101209990763174,
+    "median_drift": 0.23197398972231942,
+    "mean_drift": 0.26616099382422376,
+    "operators": [
+      [
+        "gradient_boundary",
+        78
+      ],
+      [
+        "quoted_question",
+        33
+      ],
+      [
+        "anchor_echo",
+        26
+      ],
+      [
+        "single_boundary",
+        19
+      ],
+      [
+        "wh_micro",
+        7
+      ],
+      [
+        "factual_marker",
+        3
+      ],
+      [
+        "question_carrier",
+        1
+      ]
+    ]
+  },
+  "by_dataset": {
+    "nq": {
+      "astra": {
+        "n": 166,
+        "success": 51,
+        "asr": 0.3072289156626506,
+        "ci95": [
+          0.2420681839702281,
+          0.38111011863643585
+        ],
+        "mean_retrieval": 86.97590361445783,
+        "mean_target": 10.626506024096386,
+        "mean_edit": 0.10491308987684031,
+        "median_edit": 0.097837646224743,
+        "median_similarity": 0.9783463478088379,
+        "mean_similarity": 0.9758730053183544,
+        "median_snr_db": 13.250536665533943,
+        "mean_snr_db": 15.49626977784578,
+        "median_drift": 0.33211437636590446,
+        "mean_drift": 0.3663214384863779,
+        "operators": [
+          [
+            "salient_anchor_echo",
+            28
+          ],
+          [
+            "wh_micro",
+            7
+          ],
+          [
+            "gradient_boundary_two_thirds",
+            7
+          ],
+          [
+            "quoted_question",
+            6
+          ],
+          [
+            "single_boundary",
+            5
+          ],
+          [
+            "gradient_boundary_third",
+            5
+          ],
+          [
+            "gradient_boundary_middle",
+            3
+          ],
+          [
+            "anchor_echo",
+            3
+          ]
+        ]
+      },
+      "b3": {
+        "n": 166,
+        "success": 34,
+        "asr": 0.20481927710843373,
+        "ci95": [
+          0.15043484537017962,
+          0.2725569304962747
+        ],
+        "mean_retrieval": 29.704819277108435,
+        "mean_target": 7.409638554216867,
+        "mean_edit": 0.07018330598189235,
+        "median_edit": 0.0786075238629983,
+        "median_similarity": 0.9855154752731323,
+        "mean_similarity": 0.9833291025764971,
+        "median_snr_db": 13.667280139895635,
+        "mean_snr_db": 16.546823165736892,
+        "median_drift": 0.23197398972231942,
+        "mean_drift": 0.26756054914109967,
+        "operators": [
+          [
+            "gradient_boundary",
+            16
+          ],
+          [
+            "quoted_question",
+            10
+          ],
+          [
+            "anchor_echo",
+            8
+          ],
+          [
+            "wh_micro",
+            6
+          ],
+          [
+            "single_boundary",
+            4
+          ],
+          [
+            "question_carrier",
+            1
+          ]
+        ]
+      }
+    },
+    "hotpotqa": {
+      "astra": {
+        "n": 334,
+        "success": 138,
+        "asr": 0.41317365269461076,
+        "ci95": [
+          0.3616442616110429,
+          0.46667765019614726
+        ],
+        "mean_retrieval": 91.60479041916167,
+        "mean_target": 10.203592814371257,
+        "mean_edit": 0.05384772064549574,
+        "median_edit": 0.046255731023942925,
+        "median_similarity": 0.99152672290802,
+        "mean_similarity": 0.9858220954855045,
+        "median_snr_db": 15.553000902737999,
+        "mean_snr_db": 19.937537969134233,
+        "median_drift": 0.2789791094491863,
+        "mean_drift": 0.3148060543293262,
+        "operators": [
+          [
+            "salient_anchor_echo",
+            68
+          ],
+          [
+            "gradient_boundary_third",
+            22
+          ],
+          [
+            "anchor_echo",
+            21
+          ],
+          [
+            "quoted_question",
+            20
+          ],
+          [
+            "gradient_boundary_two_thirds",
+            18
+          ],
+          [
+            "gradient_boundary_middle",
+            12
+          ],
+          [
+            "single_boundary",
+            9
+          ],
+          [
+            "factual_marker",
+            3
+          ],
+          [
+            "wh_micro",
+            2
+          ],
+          [
+            "question_carrier",
+            1
+          ]
+        ]
+      },
+      "b3": {
+        "n": 334,
+        "success": 89,
+        "asr": 0.26646706586826346,
+        "ci95": [
+          0.22190333626322298,
+          0.31634180583887467
+        ],
+        "mean_retrieval": 44.17065868263473,
+        "mean_target": 7.3293413173652695,
+        "mean_edit": 0.041446583565557214,
+        "median_edit": 0.021276595744680882,
+        "median_similarity": 0.9917705953121185,
+        "mean_similarity": 0.986742008053614,
+        "median_snr_db": 14.719861430650429,
+        "mean_snr_db": 20.48573058079845,
+        "median_drift": 0.23197398972231942,
+        "mean_drift": 0.2654654064511657,
+        "operators": [
+          [
+            "gradient_boundary",
+            62
+          ],
+          [
+            "quoted_question",
+            23
+          ],
+          [
+            "anchor_echo",
+            18
+          ],
+          [
+            "single_boundary",
+            15
+          ],
+          [
+            "factual_marker",
+            3
+          ],
+          [
+            "wh_micro",
+            1
+          ]
+        ]
+      }
+    }
+  },
+  "paired": {
+    "both": 106,
+    "astra_only": 83,
+    "b3_only": 17,
+    "neither": 294,
+    "delta_asr": 0.132,
+    "delta_ci95_bootstrap": [
+      0.094,
+      0.17
+    ]
+  },
+  "target_model_trajectory_snr": {
+    "metric": "target_model_trajectory_snr_db",
+    "formula": "-10 log10(||z_clean-z_attack||_2^2), with unit-normalized mean-pooled final hidden states",
+    "trajectory": "question + structured action/content + Top-3 retrieved doc id/title/score + final answer; excludes raw thought and gold answers",
+    "model": "frozen target generator; output_hidden_states=True; no gradients",
+    "max_tokens": 2048,
+    "weights_mutated": false,
+    "corpus_mutated": false,
+    "index_mutated": false,
+    "all": {
+      "count": 500,
+      "finite_t_snr_count": 402,
+      "infinite_t_snr_count": 98,
+      "mean_t_snr_db": 24.42595211808867,
+      "median_t_snr_db": 18.227148664450077,
+      "mean_trajectory_cosine": 0.9915331188440323,
+      "median_trajectory_cosine": 0.996132493019104,
+      "mean_noise_energy": 0.016933762311935423,
+      "median_noise_energy": 0.007735013961791992
+    },
+    "successful_attacks": {
+      "count": 189,
+      "finite_t_snr_count": 185,
+      "infinite_t_snr_count": 4,
+      "mean_t_snr_db": 18.00442657012457,
+      "median_t_snr_db": 16.512819901010793,
+      "mean_trajectory_cosine": 0.986339477950303,
+      "median_trajectory_cosine": 0.9891995787620544,
+      "mean_noise_energy": 0.027321044099393975,
+      "median_noise_energy": 0.021600842475891113
+    },
+    "by_dataset": {
+      "nq": {
+        "count": 166,
+        "finite_t_snr_count": 124,
+        "infinite_t_snr_count": 42,
+        "mean_t_snr_db": 27.13650501946773,
+        "median_t_snr_db": 19.07230494175587,
+        "mean_trajectory_cosine": 0.9932955022317818,
+        "median_trajectory_cosine": 0.9969537556171417,
+        "mean_noise_energy": 0.013408995536436518,
+        "median_noise_energy": 0.006092488765716553
+      },
+      "hotpotqa": {
+        "count": 334,
+        "finite_t_snr_count": 278,
+        "infinite_t_snr_count": 56,
+        "mean_t_snr_db": 23.2169285217901,
+        "median_t_snr_db": 17.725046641010604,
+        "mean_trajectory_cosine": 0.9906572037471268,
+        "median_trajectory_cosine": 0.9950602352619171,
+        "mean_noise_energy": 0.018685592505746258,
+        "median_noise_energy": 0.009879529476165771
+      }
+    },
+    "status_counts": {
+      "nq": 166,
+      "hotpotqa": 334
+    }
+  },
+  "environment": {
+    "mode": "astra_action_trace_whitebox_discrete",
+    "profile": "max-asr",
+    "weights_mutated": false,
+    "corpus_mutated": false,
+    "index_mutated": false,
+    "gold_answer_injection_forbidden": true,
+    "snr_floor_db": null,
+    "embedding_gate_disabled": true,
+    "search_budget": {
+      "beam_size": 24,
+      "rounds": 3,
+      "retrieval_budget": 144,
+      "target_budget": 12,
+      "target_batch": 6
+    },
+    "generator_signal": "clean_answer_nll_gradient_plus_clean_first_action_nll",
+    "gpu": "NVIDIA vGPU-48GB"
+  }
+}
